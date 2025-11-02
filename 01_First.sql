@@ -1,9 +1,11 @@
 -- Basic database creation
-CREATE DATABASE temp;
+CREATE DATABASE Saniya;
 CREATE DATABASE Rohit;
+CREATE DATABASE temp;
 
 -- Removing a database
 DROP DATABASE temp;
+DROP DATABASE Saniya;
 
 -- Setting the active database schema
 USE Rohit;
@@ -19,7 +21,7 @@ CREATE TABLE Student(
 CREATE DATABASE IF NOT EXISTS Rohit;
 
 -- Safe database deletion (no error if doesn't exist)
-DROP DATABASE IF EXISTS temp;
+DROP DATABASE IF EXISTS Saniya;
 
 -- View all databases in the system
 SHOW DATABASES;
