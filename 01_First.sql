@@ -17,6 +17,17 @@ CREATE TABLE Student(
     Age INT NOT NULL               -- Age must be provided (cannot be empty)
 );
 
+-- Insert sample records into the Student table
+INSERT INTO Student VALUES
+(1,"Rohit",13),
+(2,"Abhishek",15),
+(3,"Ravi",22),
+(4,"Shubham",14),
+(5,"Saniya",13);
+
+-- Retrieve all stored student records
+SELECT * FROM Student;
+
 -- Safe database creation (no error if already exists)
 CREATE DATABASE IF NOT EXISTS Rohit;
 
