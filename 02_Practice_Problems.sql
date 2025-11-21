@@ -11,11 +11,11 @@
 */
 
 -- Create the database
-CREATE DATABASE XYZ;
+CREATE DATABASE IF NOT EXISTS XYZ;
 USE XYZ;
 
 -- Create employee_info table
-CREATE TABLE employee_info (
+CREATE TABLE IF NOT EXISTS employee_info (
     name VARCHAR(50) NOT NULL,
     salary INT NOT NULL
 );
