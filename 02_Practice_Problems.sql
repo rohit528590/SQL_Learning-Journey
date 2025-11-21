@@ -10,21 +10,21 @@
     - Queries are structured for clarity and long-term reference.
 */
 
-/* Create the database */
+-- Create the database
 CREATE DATABASE XYZ;
 USE XYZ;
 
-/* Create employee_info table */
+-- Create employee_info table
 CREATE TABLE employee_info (
     name VARCHAR(50) NOT NULL,
     salary INT NOT NULL
 );
 
-/* Insert sample employee records */
+-- Insert sample employee records
 INSERT INTO employee_info VALUES
 ('Adam', 25000),
 ('Bob', 30000),
 ('Casey', 40000);
 
-/* View all employee records */
+-- View all employee records
 SELECT * FROM employee_info;
