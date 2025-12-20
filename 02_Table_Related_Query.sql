@@ -1,8 +1,8 @@
 -- Create the database only if it does not already exist
-CREATE DATABASE IF NOT EXISTS Rohit;
+CREATE DATABASE IF NOT EXISTS temp2;
 
 -- Switch the current session to use the Rohit database
-USE Rohit;
+USE temp2;
 
 --------------------------------------------------
 -- TABLE OPERATIONS (DDL + DML PRACTICE)
@@ -46,6 +46,8 @@ VALUES
 ('Ravi', 3),
 ('Shubham', 4);
 
+SELECT * FROM student;
+
 /*
 Method 2: No column list
 - Values MUST match the exact column order defined in the table.
@@ -54,11 +56,18 @@ Method 2: No column list
 INSERT INTO student
 VALUES ('Aditya', 10);
 
+SELECT * FROM student;
+
 /*
 Multiple-row insert using default column order.
 Efficient for bulk inserts when column order is known.
 */
-INSERT INTO student VALUES (5, 'Saniya'),(6, 'Raja'),(7, 'Golu');
+INSERT INTO student VALUES (5, "Saniya"),(6, 'Raja'),(7, 'Golu');
+
+-- Select the name column from the student table
+SELECT name FROM student;
 
 -- Insert multiple rows with explicit column mapping.
 INSERT INTO student (rollno, name) VALUES ('Khusboo', 8),('Baby', 9);
+
+SELECT * FROM student;
