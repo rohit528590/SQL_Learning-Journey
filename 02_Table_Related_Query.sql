@@ -54,7 +54,7 @@ Method 2: No column list
 - Risky in real projects, acceptable for learning/demo.
 */
 INSERT INTO student
-VALUES ('Aditya', 10);
+VALUES (10,'Aditya');
 
 SELECT * FROM student;
 
@@ -68,6 +68,6 @@ INSERT INTO student VALUES (5, "Saniya"),(6, 'Raja'),(7, 'Golu');
 SELECT name FROM student;
 
 -- Insert multiple rows with explicit column mapping.
-INSERT INTO student (rollno, name) VALUES ('Khusboo', 8),('Baby', 9);
+INSERT INTO student (name, rollno) VALUES ('Khushubo', 8),('Mukesh', 9);
 
 SELECT * FROM student;
