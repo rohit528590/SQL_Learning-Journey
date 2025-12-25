@@ -1,8 +1,8 @@
 -- Create the database only if it does not already exist
-CREATE DATABASE IF NOT EXISTS Rohit;
+CREATE DATABASE IF NOT EXISTS sql_table_db;
 
 -- Switch the current session to use the Rohit database
-USE Rohit;
+USE sql_table_db;
 
 --------------------------------------------------
 -- TABLE OPERATIONS (DDL + DML PRACTICE)
