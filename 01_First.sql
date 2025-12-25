@@ -1,10 +1,10 @@
 -- Basic database creation
 CREATE DATABASE Saniya;
 CREATE DATABASE Rohit;
-CREATE DATABASE temp;
+CREATE DATABASE ApnaCollege;
 
 -- Removing a database
-DROP DATABASE temp;
+DROP DATABASE ApnaCollege;
 DROP DATABASE Saniya;
 
 -- Setting the active database schema
