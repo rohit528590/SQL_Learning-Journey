@@ -11,8 +11,8 @@
 */
 
 -- Create the database
-CREATE DATABASE IF NOT EXISTS XYZ;
-USE XYZ;
+CREATE DATABASE IF NOT EXISTS sql_practice01_db;
+USE sql_practice01_db;
 
 -- Create employee_info table
 CREATE TABLE IF NOT EXISTS employee_info (
