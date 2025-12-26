@@ -1,7 +1,7 @@
 -- Create database only if it does not already exist
-CREATE DATABASE IF NOT EXISTS sql_select_db;
+CREATE DATABASE IF NOT EXISTS sql_select_WhereClause_db;
 -- Set ApnaCollege as the active database
-USE sql_select_db;
+USE sql_select_WhereClause_db;
 
 --------------------------------------------------
 -- TABLE CREATION
