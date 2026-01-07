@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS ApnaCollege;
-USE ApnaCollege;
+CREATE DATABASE IF NOT EXISTS sql_foreign_db;
+USE sql_foreign_db;
 
 --------------------------------------------------
 -- PARENT TABLE
